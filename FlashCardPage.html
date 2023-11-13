@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<script defer src="JS/Processes.js"></script>
+		<script defer src="JS/FlashCardPage.js" onload="loadFlashCardPage()"></script>
+		<link rel="stylesheet" href="CSS/Styles.css">
+	</head>
+	
+	<body>
+		<h1 id="h1CategoryNameID"></h1>
+		<div id = "flashCardContainerID">
+			<div id = "flashCardInnerID">
+				<div id="flashCardFrontID"></div>
+				<div id="flashCardBackID"></div>
+			</div>
+		</div>
+		<br>
+		<button onclick="previousCardButton()">&#11164</button>
+		<button onclick="randomCardButton()">Random</button>
+		<button onclick="nextCardButton()">&#11166</button>
+		<br>
+		<button onclick="homeButton()">Home</button>
+	
+	</body>
+	
+</html>

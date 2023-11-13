@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Revision</title>
+		<link rel="stylesheet" href="CSS/Styles.css">
+		<script defer src="JS/Processes.js"></script>
+		<script defer src="JS/HomePage.js" onload="loadHomePage()"></script>
+	</head>
+	
+	<body>
+		<h1>What do you want to revise?</h1>
+		<div>
+			<strong>Category:</strong>
+			<select id="categoryList">
+			</select>
+			<button onclick="editCategoryButton()">Edit</button>
+			<button onclick="createCategoryButton()">Create New</button>
+			<button onclick="removeCategoryButton()">Delete</button>
+		</div>
+		<div>
+			<button onclick="startQuizButton()">Start Quiz</button>
+			<button onclick="flashCardsButton()">Flash Cards</button>
+		</div>
+		<h2 id="test"></h2>
+	</body>
+</html>
