@@ -1,10 +1,84 @@
-body { 
+/*-------------------------------------------------------------------------------*/
+/*General*/
+/*-------------------------------------------------------------------------------*/
+
+html { 
     font-family: sans-serif; 
 }
 
+h1,h2 {
+  font-weight: bold;
+}
+
+button {
+  background-color: #e8baff;
+  border: none;
+  font-size: 20px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 0px 15px;  
+}
+
+button:hover {
+  background-color: #ffbaef;
+}
+
+.center {
+  padding-top: 15%;
+  margin: auto;
+  position: relative;
+  width: 50%;
+  min-width: fit-content;
+}
+
+.centerInner {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+strong, label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  height: 24px;
+  font-size: 20px;
+}
+
+select {
+  height: 30px;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*Quiz Page*/
+/*-------------------------------------------------------------------------------*/
+
+.questionFormatID {
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*Contents Page*/
+/*-------------------------------------------------------------------------------*/
+
+.rowFormatID {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*Flash Card*/
+/*-------------------------------------------------------------------------------*/
+
 #flashCardContainerID {
     background-color: transparent;
-    width: 300px;
+    width: 400px;
     height: 200px;
     perspective: 1000px;
   }
@@ -38,7 +112,7 @@ body {
   }
 
 #flashCardFrontID {
-    background-color: #CD8DED;
+    background-color: #b3ffcd;
   }
 
 #flashCardBackID {

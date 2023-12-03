@@ -82,6 +82,7 @@ function createRow(index, elementNumber, parent=document.getElementById("QAconta
 {
 	let newDiv = document.createElement("div");
 	newDiv.setAttribute("id",`divID${elementNumber}`);
+	newDiv.setAttribute("class","rowFormatID");
 	newDiv.innerHTML += `
 		<input type="text" id="question${elementNumber}" class="question" value="${revisionData[currentCategory].questionSet[index].question}">
 		<input type="text" id="answer${elementNumber}" class="answer" value="${revisionData[currentCategory].questionSet[index].answer}">

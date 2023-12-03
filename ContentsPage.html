@@ -9,17 +9,20 @@
 	</head>
 	
 	<body>
-		<form id="QAcontainer">
-			<label for="categoryID">Category:</label>
-			<input type="text" id="categoryID">
-			<br><br>
-			<input type="text" id="subQuestionID">
-			<input type="text" id="subAnswerID">
-			<br><br>
-		</form>
-		<button onclick="newRow()">+</button>
-		<button onclick="saveContentsPage()">Save</button>
-		<button onclick="homeButton()">Home</button>
+		<div class="center">
+			<form id="QAcontainer">
+				<label for="categoryID">Category:</label>
+				<input type="text" id="categoryID">
+				<br><br>
+				<input type="text" id="subQuestionID">
+				<input type="text" id="subAnswerID">
+				<br><br>
+			</form>
+			<br>
+			<button onclick="newRow()">+</button>
+			<button onclick="saveContentsPage()">Save</button>
+			<button onclick="homeButton()">Home</button>
+		</div>
 		<h2 id="test"></h2>
 	</body>
 </html>

@@ -9,19 +9,26 @@
 	</head>
 	
 	<body>
-		<h1 id="h1CategoryNameID"></h1>
-		<div id = "flashCardContainerID">
-			<div id = "flashCardInnerID">
-				<div id="flashCardFrontID"></div>
-				<div id="flashCardBackID"></div>
+		<div class="center">
+			<div class="centerInner">
+				<h1 class="centerInner" id="h1CategoryNameID"></h1>
+				<br>
+				<div id = "flashCardContainerID">
+					<div id = "flashCardInnerID">
+						<div id="flashCardFrontID"></div>
+						<div id="flashCardBackID"></div>
+					</div>
+				</div>
 			</div>
+			<br>
+			<div class="centerInner">
+				<button onclick="previousCardButton()"><</button>
+				<button onclick="randomCardButton()">Random</button>
+				<button onclick="nextCardButton()">></button>
+			</div>
+			<br>
+			<button onclick="homeButton()">Home</button>
 		</div>
-		<br>
-		<button onclick="previousCardButton()">&#11164</button>
-		<button onclick="randomCardButton()">Random</button>
-		<button onclick="nextCardButton()">&#11166</button>
-		<br>
-		<button onclick="homeButton()">Home</button>
 	
 	</body>
 	
